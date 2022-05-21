@@ -7,7 +7,7 @@ import java.nio.file.Paths;
 public class TestFileRead {
     public static void main(String[] args) {
         try {
-            String contents = new String(Files.readAllBytes(Paths.get(first:"gusInfoGraphic.xml")));
+            String contents = new String(Files.readAllBytes(Paths.get("gusInfoGraphic.xml")));
             System.out.println("ZAWARTOSC PLIKU gusInfoGraphic.xml");
             System.out.print(contents);
         }
